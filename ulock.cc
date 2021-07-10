@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 
     Auth auth;
 
-    qmlRegisterType<Auth>("cpp.my.components", 1, 0, "Auth");
+    qmlRegisterType<Auth>("org.test.ulock", 1, 0, "Auth");
 
     QQuickView view;
     view.setResizeMode(QQuickView::SizeRootObjectToView);
